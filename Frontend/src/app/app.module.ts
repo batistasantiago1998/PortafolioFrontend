@@ -7,6 +7,10 @@ import { LAPComponent } from './component/l-ap/l-ap.component';
 import { RedessocialesComponent } from './component/redessociales/redessociales.component';
 import { BadderComponent } from './component/badder/badder.component';
 import { SobremiComponent } from './component/sobremi/sobremi.component';
+import { ExperienciasComponent } from './component/experiencias/experiencias.component';
+import { EducacionComponent } from './component/educacion/educacion.component';
+import { HardySolffSkillsComponent } from './component/hardy-solff-skills/hardy-solff-skills.component';
+import { ProyectoComponent } from './component/proyecto/proyecto.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { SobremiComponent } from './component/sobremi/sobremi.component';
     LAPComponent,
     RedessocialesComponent,
     BadderComponent,
-    SobremiComponent
+    SobremiComponent,
+    ExperienciasComponent,
+    EducacionComponent,
+    HardySolffSkillsComponent,
+    ProyectoComponent
   ],
   imports: [
     BrowserModule

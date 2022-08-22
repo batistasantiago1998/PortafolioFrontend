@@ -1,10 +1,36 @@
-.rew{
-    padding: 2px;
+.row{
+    padding: 15px;
 }
-img{
-    height: 160px;
-    padding: 45px;
+div {
+    background-color: #1b1f3a;
+    text-align: center;
 }
-.div {
-    background-color: rgb(23, 156, 156);
+#nombre{
+    font-weight: bold;
+    margin-top: 10%; 
+
+}
+/*para pantallas mayor a 576 px*/
+@media (min-width:576px) {
+    #fp{ 
+        position: absolute;
+        width: 13%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px green;
+        left: 0.6%;
+        top: 750;
+
+    }
+}
+/*para pantallas menor a 576px*/
+@media (max-width:575px) {
+    #fp{ 
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px green;
+        left: 0.6%;
+        top: 375px;
+
+    }
 }
